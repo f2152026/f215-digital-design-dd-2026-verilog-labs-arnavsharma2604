@@ -111,7 +111,4 @@ module cla4(
 
 endmodule
 
-This was in task 3
 
-
-endmodule
