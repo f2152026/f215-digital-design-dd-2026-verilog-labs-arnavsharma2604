@@ -13,19 +13,6 @@
 //   assign #(2) cout = ... (same pattern, one more term)
 //   assign #(2) sum  = p ^ {c3, c2, c1, cin};
 
-module cla4_dataflow(
-  input  [3:0] a,
-  input  [3:0] b,
-  input        cin,
-  output [3:0] sum,
-  output       cout
-);
-
-  wire [3:0] p, g;
-  wire c1, c2, c3;
-
-  // TODO: your dataflow (assign) statements go here.
-
   module cla4_dataflow(
     input  [3:0] a,
     input  [3:0] b,
@@ -64,4 +51,3 @@ module cla4_dataflow(
 
 endmodule
 
-endmodule
