@@ -83,8 +83,7 @@ module cla4(
     xor #(2) S2 (sum[2], p2, c2);
     xor #(2) S3 (sum[3], p3, c3);
 
-    assign #(2) cout = c4;
-
+assign cout = c4;
 endmodule
 
 
